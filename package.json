@@ -1,0 +1,22 @@
+{
+  "name": "web-back",
+  "version": "1.0.0",
+  "description": "Repo para el back-end del proyecto de la materia de Laboratorio de desarrollo de aplicaciones web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcirym10/Lab-Web-Back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kcirym10/Lab-Web-Back/issues"
+  },
+  "homepage": "https://github.com/kcirym10/Lab-Web-Back#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
