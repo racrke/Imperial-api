@@ -9,9 +9,12 @@ const routes = require('express').Router();
 // Route name to controller
 // El archivo no esta creado, pero el momento en que se cree un controlador se implementa
 const example = require('./exampleRoute');
+const product = require('./product');
+
 
 // Al llamarse la direccion se ejecuta el codigo en la ruta y cambia a ese controlador
 routes.use('/example', example)
+routes.use('/api/product', product)
 
 routes.get('/', (req, res) => {
     res.statusCode = 200;
